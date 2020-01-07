@@ -1,5 +1,5 @@
 ﻿#Get all .ftex names in the current folder and sub-folders.
-$pftxsfolderitems = Get-ChildItem ".\" -Attributes !Directory+!System -recurse -Exclude *.1.ftexs,*.2.ftexs,*.3.ftexs,*.ps1
+$pftxsfolderitems = Get-ChildItem ".\" -Attributes !Directory+!System -recurse -Exclude *.1.ftexs,*.2.ftexs,*.3.ftexs,*.ps1 *.ftex
 
 #Path to unpacked DDS files.
 $PathToDDS = "..\texturesconverted"
