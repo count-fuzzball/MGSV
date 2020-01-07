@@ -1,5 +1,5 @@
 ﻿#Get all .ftex names in the current folder and sub-folders.
-$pftxsfolderitems = Get-ChildItem ".\" -Attributes !Directory+!System -recurse -Exclude *.ps1 *.ftex *.*.ftexs
+$pftxsfolderitems = Get-ChildItem ".\" -Attributes !Directory+!System -recurse -Exclude *.ps1 *.ftex
 
 #Path to unpacked DDS files.
 $PathToFtex = "..\"
